@@ -31,7 +31,7 @@
   - Système de seed pour les données initiales
 
 - Ce qui manque (le 30%) :
-  - Endpoints POST/PUT/DELETE
+  - Endpoints POST/PUT/PATCH/DELETE
   - Authentification et autorisation
   - Validation des données
   - Pagination et filtrage
