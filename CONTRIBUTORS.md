@@ -4,4 +4,4 @@
 
 | Membre | Rôle Lab 0 | GitHub |
 | - - - - - - - -| - - - - - - - - - - -| - - - - - - - -|
-| ( à compléter par chaque membre via PR ) | | |
+| OFFINOBI Noé | CP | @Noe06-t |
