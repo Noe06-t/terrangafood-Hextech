@@ -1,6 +1,8 @@
 # 🍛 TerrangaFood
 
-Plateforme de commande de plats auprès de restaurants dakarois.
+Plateforme de commande de plats via les restaurants dakarois.
+
+## Équipe - [Hextech]
 
 **Projet pédagogique** — Architecture Logicielle 2 — L3 Génie Logiciel — UCAD / ESP
 
@@ -36,7 +38,7 @@ cd api
 npm install
 
 # Installer les dépendances Frontend
-cd ../web
+cd ../webcd
 npm install
 ```
 
