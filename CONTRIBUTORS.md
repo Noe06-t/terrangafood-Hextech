@@ -4,4 +4,5 @@
 
 | Absa GUEYE | DB | @absa-gueye |
 | - - - - - - - -| - - - - - - - - - - -| - - - - - - - -|
-| ( à compléter par chaque membre via PR ) | | |
+|| | |
+|Alpha Diallo| DF | @Froxy-13 |
