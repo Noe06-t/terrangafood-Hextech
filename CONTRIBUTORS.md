@@ -2,6 +2,6 @@
 
 ## Équipe : Hextech
 
-| Membre | Rôle Lab 0 | GitHub |
+| Absa GUEYE | DB | @absa-gueye |
 | - - - - - - - -| - - - - - - - - - - -| - - - - - - - -|
 | ( à compléter par chaque membre via PR ) | | |
