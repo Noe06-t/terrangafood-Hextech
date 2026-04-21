@@ -36,7 +36,7 @@ cd api
 npm install
 
 # Installer les dépendances Frontend
-cd ../web
+cd ../webcd
 npm install
 ```
 
