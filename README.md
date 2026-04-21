@@ -1,6 +1,8 @@
 # 🍛 TerrangaFood
 
-Plateforme de commande de plats auprès de restaurants dakarois.
+Plateforme de commande de plats via les restaurants dakarois.
+
+## Équipe - [Hextech]
 
 **Projet pédagogique** — Architecture Logicielle 2 — L3 Génie Logiciel — UCAD / ESP
 
@@ -36,9 +38,13 @@ cd api
 npm install
 
 # Installer les dépendances Frontend
-cd ../web
+cd ../webcd
 npm install
 ```
+
+### Configuration
+
+Créez un fichier `.env` dans `api/` et renseignez au minimum l'URI MongoDB utilisée par l'API.
 
 ### Lancement
 
@@ -58,6 +64,12 @@ npm run dev
 cd api
 npm run seed
 ```
+
+### Résultat attendu
+
+- API disponible sur `http://localhost:3001`
+- Interface web disponible sur `http://localhost:3000`
+- Données de démonstration chargées après `npm run seed`
 
 ## Structure du projet
 

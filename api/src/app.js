@@ -1,3 +1,14 @@
+/**
+ * Fichier principal de l'API TerrangaFood.
+ * 
+ * Rôle :
+ * - Initialise l'application Express
+ * - Configure les middlewares globaux (CORS, JSON, logs)
+ * - Déclare les routes de l'API (restaurants, plats)
+ * - Gère les erreurs via un middleware dédié
+ * - Établit la connexion à la base de données MongoDB
+ * - Démarre le serveur sur le port défini
+ */
 const path = require('path');
 const express = require('express');
 const mongoose = require('mongoose');
