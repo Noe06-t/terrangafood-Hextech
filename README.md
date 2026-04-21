@@ -85,3 +85,10 @@ terrangafood/
 ## Licence
 
 Projet pédagogique — Usage académique uniquement.
+
+# Fonctionnalites existantes
+- Consultation des plats disponibles 
+- Commande de repas
+- Creation de compte utilisateur
+- Gestion des livraisons 
+- Historique des commandes 
