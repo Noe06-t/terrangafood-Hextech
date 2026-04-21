@@ -40,6 +40,10 @@ cd ../web
 npm install
 ```
 
+### Configuration
+
+Créez un fichier `.env` dans `api/` et renseignez au minimum l'URI MongoDB utilisée par l'API.
+
 ### Lancement
 
 ```bash
@@ -58,6 +62,12 @@ npm run dev
 cd api
 npm run seed
 ```
+
+### Résultat attendu
+
+- API disponible sur `http://localhost:3001`
+- Interface web disponible sur `http://localhost:3000`
+- Données de démonstration chargées après `npm run seed`
 
 ## Structure du projet
 
