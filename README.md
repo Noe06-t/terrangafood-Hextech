@@ -1,6 +1,6 @@
 # 🍛 TerrangaFood
 
-Plateforme de commande de plats auprès de restaurants dakarois.
+Plateforme de commande de plats via les restaurants dakarois.
 
 **Projet pédagogique** — Architecture Logicielle 2 — L3 Génie Logiciel — UCAD / ESP
 
