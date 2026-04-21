@@ -4,4 +4,5 @@
 
 | Membre | Rôle Lab 0 | GitHub |
 | - - - - - - - -| - - - - - - - - - - -| - - - - - - - -|
-| ( à compléter par chaque membre via PR ) | | |
+|| | |
+|Alpha Diallo| DF | @Froxy-13 |

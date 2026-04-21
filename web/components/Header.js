@@ -7,6 +7,7 @@ export default function Header() {
         <Link href="/" className="header-logo">
           🍛 Terranga<span>Food</span>
         </Link>
+        <h3>Hextech</h3>
         <nav className="header-nav">
           <Link href="/">Restaurants</Link>
         </nav>
