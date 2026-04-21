@@ -7,8 +7,8 @@
 - Endpoints existants : GET /api/restaurants, GET /api/restaurants/:id
 - Pattern utilisé : MVC
 
-### Architecture Frontend (par DF -- [Prénom])
-- Nombre de pages : ...
+### Architecture Frontend (par DF -- Alpha)
+- Nombre de pages : 2 (restaurants/[id]/page.js et page.js)
 - Composants réutilisables : Header, RestaurantCard, PlatCard
 - Méthode d'appel API : fetch dans lib/api.js
 
