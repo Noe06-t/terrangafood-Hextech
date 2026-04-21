@@ -2,6 +2,8 @@
 
 Plateforme de commande de plats via les restaurants dakarois.
 
+## Équipe - [Hextech]
+
 **Projet pédagogique** — Architecture Logicielle 2 — L3 Génie Logiciel — UCAD / ESP
 
 ## Stack technique
