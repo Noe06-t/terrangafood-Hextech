@@ -9,12 +9,14 @@
  * - Établit la connexion à la base de données MongoDB
  * - Démarre le serveur sur le port défini
  */
+
 const path = require('path');
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const morgan = require('morgan');
 const dotenv = require('dotenv');
+const commandeRoutes = require('./routes/commandes');
 
 const restaurantRoutes = require('./routes/restaurants');
 const platRoutes = require('./routes/plats');
@@ -38,16 +40,24 @@ app.get('/', (req, res) => {
     version: '0.0.0',
     endpoints: {
       restaurants: '/api/restaurants',
-      plats: '/api/plats'
+      plats: '/api/plats',
+      commandes: '/api/commandes'
     }
   });
+
 });
+
+
 
 app.use('/api/restaurants', restaurantRoutes);
 app.use('/api/plats', platRoutes);
+// Brancher les routes
+app.use('/api/commandes', commandeRoutes);
 
 // --- Gestion des erreurs ---
 app.use(errorHandler);
+
+
 
 // --- Connexion MongoDB et démarrage ---
 mongoose
