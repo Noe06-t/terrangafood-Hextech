@@ -47,6 +47,8 @@ app.get('/', (req, res) => {
 
 });
 
+
+
 app.use('/api/restaurants', restaurantRoutes);
 app.use('/api/plats', platRoutes);
 // Brancher les routes
