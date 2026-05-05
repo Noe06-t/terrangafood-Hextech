@@ -56,6 +56,18 @@ app.get('/', (req, res) => {
 
 });
 
+// Alias pour /api (redirige vers la root)
+app.get('/api', (req, res) => {
+  res.json({
+    message: 'API TerrangaFood',
+    endpoints: {
+      restaurants: '/api/restaurants',
+      plats: '/api/plats',
+      commandes: '/api/commandes'
+    }
+  });
+});
+
 
 
 app.use('/api/restaurants', restaurantRoutes);
