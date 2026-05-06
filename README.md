@@ -93,6 +93,9 @@ terrangafood/
 ├── .gitignore
 └── README.md
 ```
+## URLs de production
+- **Frontend** : https://terrangafood-Hextech.vercel.app
+- **API** : https://terrangafood-api-Hextech.onrender.com
 
 ## Licence
 
