@@ -1,6 +1,6 @@
 # Rapport de tests — Lab 4 (Production)
 
-## Équipe : [Nom de guerre]
+## Équipe : Hextech
 ## Testeur : ABSA (QA)
 
 ## URLs de production
