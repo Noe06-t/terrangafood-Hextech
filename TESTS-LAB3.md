@@ -1,7 +1,7 @@
 # Rapport de tests -- Lab 3 (Docker)
 
-## Équipe : [Nom de guerre]
-## Testeur : [Prénom] (QA)
+## Équipe : Hextech
+## Testeur : Baye Cheikh Diakhate (QA)
 
 ### Images Docker
 
