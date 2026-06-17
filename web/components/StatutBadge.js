@@ -1,28 +1,19 @@
-﻿// Mapping statut → classe CSS
-const statutClasses = {
-  'en attente': 'statut-en-attente',
-  'confirmée': 'statut-confirmee',
-  'en livraison': 'statut-en-livraison',
-  'livrée': 'statut-livree',
-  'annulée': 'statut-annulee',
-};
+import { Clock, CheckCircle, Truck, Package, XCircle } from 'lucide-react';
 
-// Mapping statut → emoji
-const statutEmojis = {
-  'en attente': '⏳',
-  'confirmée': '✅',
-  'en livraison': '🚗',
-  'livrée': '📦',
-  'annulée': '❌',
+const config = {
+  'en attente':   { cls: 'statut-en-attente',   Icon: Clock },
+  'confirmée':    { cls: 'statut-confirmee',     Icon: CheckCircle },
+  'en livraison': { cls: 'statut-en-livraison',  Icon: Truck },
+  'livrée':       { cls: 'statut-livree',        Icon: Package },
+  'annulée':      { cls: 'statut-annulee',       Icon: XCircle },
 };
 
 export default function StatutBadge({ statut }) {
-  const classe = statutClasses[statut] || '';
-  const emoji = statutEmojis[statut] || '';
-
+  const { cls, Icon } = config[statut] || { cls: '', Icon: Clock };
   return (
-    <span className={`statut-badge ${classe}`}>
-      {emoji} {statut}
+    <span className={`statut-badge ${cls}`}>
+      <Icon size={11} />
+      {statut}
     </span>
   );
 }
